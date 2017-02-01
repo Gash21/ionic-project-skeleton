@@ -1,4 +1,4 @@
-## New Seekmi Vendor App
+## Ionic Skeleton Project
 
 ### Getting Started
 * Clone this repository
