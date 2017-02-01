@@ -6,6 +6,8 @@
   },
   "dependencies": {
     "angular-translate": "^2.13.1",
-    "angular-translate-loader-static-files": "^2.13.1"
+    "angular-translate-loader-static-files": "^2.13.1",
+    "angular-resource": "^1.6.1",
+    "ngstorage": "^0.3.11"
   }
 }

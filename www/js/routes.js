@@ -1,7 +1,6 @@
 angular.module('starter.routes', ['pascalprecht.translate'])
 
 .config(function ($stateProvider, $urlRouterProvider, $translateProvider, $ionicConfigProvider) {
-    // $ionicConfigProvider.tabs.position('top');
     $ionicConfigProvider.navBar.alignTitle("center"); //Places them at the bottom for all OS
     $ionicConfigProvider.navBar.positionPrimaryButtons("left"); //Places them at the bottom for all OS
     $ionicConfigProvider.navBar.positionSecondaryButtons("right"); //Places them at the bottom for all OS
@@ -59,12 +58,13 @@ angular.module('starter.routes', ['pascalprecht.translate'])
         }
       })
 
-    .state('app.account', {
-      url: '/account',
+    .state('app.login', {
+      url: '/login',
       views: {
         'tab-account': {
-          templateUrl: 'templates/tab-account.html',
-          controller: 'AccountCtrl'
+          templateUrl: 'templates/login.html',
+          controller: 'AuthLoginCtrl',
+          controllerAs: 'login'
         }
       }
     });
