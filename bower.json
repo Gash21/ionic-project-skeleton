@@ -1,0 +1,11 @@
+{
+  "name": "seekmi-vendor",
+  "private": "true",
+  "devDependencies": {
+    "ionic": "driftyco/ionic-bower#1.3.2"
+  },
+  "dependencies": {
+    "angular-translate": "^2.13.1",
+    "angular-translate-loader-static-files": "^2.13.1"
+  }
+}
